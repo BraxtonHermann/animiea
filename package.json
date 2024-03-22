@@ -1,0 +1,60 @@
+{
+  "name": "animiea",
+  "description": "Like `extend` but only copies missing properties/values to the target object.",
+  "version": "1.0.0",
+  "author": "KirkFerry",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BraxtonHermann/animiea.git"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "array-each": "^1.0.1",
+    "array-slice": "^1.0.0",
+    "for-own": "^1.0.0",
+    "isobject": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.11",
+    "mocha": "^3.2.0"
+  },
+  "keywords": [
+    "copy",
+    "quasi",
+    "eos",
+    "extend",
+    "javascript",
+    "aut",
+    "dicta",
+    "object",
+    "tenetur",
+    "ea",
+    "util",
+    "utils",
+    "maxime",
+    "modi"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
